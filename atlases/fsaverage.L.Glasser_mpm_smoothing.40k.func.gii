@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[fsaverage.L.Glasser.40k.label.gii:
+/n18dat01/cyli/software/workbench/bin_rh_linux64/../exe_rh_linux64/wb_command -label-resample fsaverage.L.Glasser.32k_fs_LR.label.gii ../../../ROI/fs_LR-deformed_to-fsaverage.L.sphere.32k_fs_LR.surf.gii neigh_indices/Sphere.40k.surf.gii BARYCENTRIC fsaverage.L.Glasser.40k.label.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.5.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 76441605d20536d81034a64c9d34ec393aa528b9
+Commit Date: 2021-02-16 13:46:47 -0600
+Compiled with OpenMP: YES
+Compiler: g++ (/export/gcc-4.8.5/bin)
+Compiler Version: 4.8.5
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/n18dat01/cyli/software/workbench/bin_rh_linux64/../exe_rh_linux64/wb_command -metric-math '(x>0)*100' -var x fsaverage.L.Glasser.40k.label.gii fsaverage.L.Glasser_mpm_smoothing.40k.func.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/n02dat01/users/cyli/HCP/wholebrain/SUNetforIndiv]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="40962"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[vertex areas]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2AuO4ygUBdBa26x+ltUajSJZdNnxB7iAz5WOqmeSOI8HhiQ/P//+83Pov3x7Ts3Xfl7z5H1b2db0SbqmdK+2uVPLKD3cG1e6DurO53ad7s3x0WO96uO4FzV6tXK/y6TrWcW3jDoH32odyQw18mxOz+ztZ57bqj7Wk9gDral1bee1514Fs6iVz7VqvueVa3J9vravS9c+k70+Aucc7fff9quz15rRSmNhLnfX2lHSY/qtvnQ9rONK0rUC17RO7brS/XqbEdZCcszpWug/p4m1a82tL7mu0mMH6K1WWr53ukezONNH/Xwn9xZAX2fP5BafgVpc8830E2AOd85Ze/r9vqbrAnirs2eZc/A9zB8AtLN6yjEm+rr3ePn36TiBrGSe1pHu3ar0GurYu5e2f8/eY0fXmu0+tcdAH2eSrvHuWNL1wCrKzxPlY+49gLyRUntMT8eYnhvGVDN7106PEe6ypwLAmBJpXWu6p7RZf+laAXivvXMpeV799p5Pk+7zyvQfgNVc/YxRI+kxMx5rAwBYnRwnOS+JOU2vR2B+o6V2Ten+puYyXQv95zSx/q259SXXVXrsAL3VSsv3TvdoFvrI1fWRrglgVVfO5Npn99mkezQLfQSYx9Ok6x9R2R99Asi6cpY5A9/BHAJAO6unHGuyry373nt8wN+SeVpHuneMw1oByLi7/34ee7JHP0m6byPSM4C5OAfb9XP73+m6APjf2bPMmQcAcN3KGbGvPXqeXlPwVskc1bT9C8A8tnt4y7MCAAAAeJ+VszfOFXv9uX56PcGbtb7HAQAAgLq237m3v7HtfRc/+s7ue/z3HpU933v+CEn3EWbivgMAAABm1TLl+7R+vxpJzwfADOyhAAAAAACURFZK+n6a0Yg9HD3p/gAAQEn65UzvZ5mT9Lolw1qAOmreSyvt2TPXDjNZed9I1wMA0Es6M4wrPUeM5ck6Kv+dHgvgLAAAWMWT72pPXt/j8+KTmnrUx5xGXOsAAIyv/FzYI+kx0399WRsAAO9W67tDy6R7BCNynwAAADwjcyW9Xmqts/Kxo9ftPadn0v0DYE0rJzXe9JxCknsFAObw5Mz+/L9eZ32tpHtOnfUHAMyrRdJjejtzBADr2J7d5Tn+7XwvX+fzHAAA8AZyL2UP0/N4Z65HWgsz9RHgqpnyZCzlc9J9B4CZJc55AAAAAICrZD/f+pOeu1Hm8mxt6f4Aaxh1nwMAAACAke397nXl97Bvv5/1/l1ttd/ynv5GOWPSPQfaspcAAAAAAHckMlItNZOeyxnpJfBWzhQAAAAAAABGIiLtkr6/32iWvvdegy2ul+7hdlzpOgAAgLHJXDkzh6vNb/oeGd8fppEqAw==</Data>
+</DataArray>
+</GIFTI>
