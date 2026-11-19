@@ -4,11 +4,11 @@ Accurate mapping of brain functional subregions at an individual level is crucia
 ![Fig1](https://github.com/user-attachments/assets/cd8a7a4e-43f0-4e4c-8e43-29d7920b0274)
 
 ### Data release
-Download the weights of TS-AI from: 
-https://drive.google.com/file/d/1dfo2HjdynruXH7pH7D6P1jz1I7Doxpwi/view?usp=drive_link .
 
-TS-AI-derived individualized parcellations based on Glasser atlas and Brannetome atlas for HCP subjects is available on 
-https://drive.google.com/file/d/109_Yc7YhHkdq2CPYow-Jo1vtygF6E5QZ/view?usp=drive_link .
+- [Download the pretrained TS-AI weights](https://github.com/YueCui-Labs/TS-AI/releases/download/weights-v1.0.0/trained_models.zip) (1.19 GB).
+- [Download the individualized HCP parcellations](https://github.com/YueCui-Labs/TS-AI/releases/download/weights-v1.0.0/TSAI_indiv_parcellation_HCP1200.zip) (52.37 MB). This archive contains Glasser and Brainnetome parcellations for both hemispheres of 968 HCP participants.
+
+See the [release notes](https://github.com/YueCui-Labs/TS-AI/releases/tag/weights-v1.0.0) for archive contents and SHA-256 checksums.
 
 ### :books: Citation
 Please cite the [following paper](https://doi.org/10.1016/j.media.2024.103297) when using TS-AI:
